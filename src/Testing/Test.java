@@ -102,8 +102,7 @@ Thread.sleep(2000);
 String VerifyPromiseisAdded = driver.findElement(By.xpath(BycheckpromiseisAdd)).getText();
 System.out.println("Promise is added successfully: Read the description: "+VerifyPromiseisAdded);
 
-
-
+Thread.sleep(2000);
 driver.close();
 
 
